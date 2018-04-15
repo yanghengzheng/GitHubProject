@@ -4,7 +4,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.useRelaxedHTTPSValidation;
 import static org.hamcrest.Matchers.hasItems;
 
-public class Xueqiu {
+public class XueqiuTest {
     @Test
 
     public void testSearch(){
@@ -27,8 +27,7 @@ public class Xueqiu {
 
     @Test
     public void testLogin(){
-        given()
-                .header("")
+
     }
 
 }
